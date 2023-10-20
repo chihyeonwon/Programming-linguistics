@@ -168,3 +168,34 @@ LR 파싱테이블 ACTION이 어떻게 일어날까
 메모리 셀에 대한 추상화 -> 변수, 배열 등 
 
 ```
+### 반대로
+![image](https://github.com/chihyunwon/Programming-linguistics/assets/58906858/e0a85559-4484-496d-8cc6-b0eef9320d3c)
+```
+0 <- 스택에
+5 <- R6 Reduce6 id가 f가되고 상태를 변화 감축되고 난 후에 상태 변화
+0F3 상태가 0에서 3이됨
+3, + -> R4
+
+1, + S6
+
+문법을 반대로
+
+0 E 1 4 6 T 1 8 7 f 10
+
+t * f -> t
+
+0 E 1 4 6 T 10
+
+6,T -> 9
+
+0 E 1 4 6 T 9
+
+E+T -> E
+
+0 E -> 1
+
+0 E 1
+
+
+ 
+```
