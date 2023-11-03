@@ -1,4 +1,4 @@
-# Programming-linguistics
+![image](https://github.com/chihyunwon/Programming-linguistics/assets/58906858/1b7a3685-13fd-4e98-b5e5-9bd182098d10)# Programming-linguistics
 컴퓨터공학과 프로그래밍 언어론 정리입니다.
 [BNF](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hamill_a&logNo=221125554113)
 [4](https://blog.naver.com/PostView.nhn?blogId=bh5kks&logNo=220498445612)
@@ -266,8 +266,30 @@ os가 개입하는 가상메모리와 실메모리사이의 매핑(바인딩)은
 타입 추론 var <- 실행시간이 아닌 컴파일 시간에 결정
 
 동적 타입 바인딩 <- 변수의 타입이 명세 x 순수 인터프리터 언어 파이썬, 자스, c#
+```
+## 23.11.03
 
+```
+존속기간 = 기억장소에서 할당되고 회수되기 까지의 시간 (시간적인 개념)
 
+정적 변수 <- 전역 변수, 정적 지역 변수에 해당. static 지정자는 클래스 변수를 생성
+->장점 : 어디에서나 존재하므로 프로그램의 어느 부분에서나 직접적 접근이 가능
+할당과 회수를 위한 부담이 없다. 할당하고 회수는 한 번만 이루어짐
 
+->단점 : 유연성이 감소한다. 재귀적 호출x 스택을 이용하지 못하기 때문에
 
+스택- 동적 변수 : 실행될 때 기억 공간에 바인딩 타입은 정적이지만 공간만 동적 바인딩되고 나머지 속성은 정적 바인딩
+c함수, java 메서드의 지역변수, 매개 변수,
+-> 장점 :
+
+-> 단점 : 
+
+힙 :
+
+```
+![image](https://github.com/chihyunwon/Programming-linguistics/assets/58906858/15cd3e68-239a-4c61-b0e6-57718797d38c)
+```
+정적 변수, 스택, 힙이 각각 잡혔다가 사라지는 시간들이 각각 다르다.
+main의 시작과 끝 안에 foo의 시작과 끝안에 malloc의 시작과 끝이 있다.
+ free(pi) pi가 가리키는 공간 ->heap의 공간이 없어지는데 pi는 있음
 ```
