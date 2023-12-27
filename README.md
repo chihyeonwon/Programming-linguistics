@@ -1,5 +1,11 @@
 # Programming-linguistics
 컴퓨터공학과 프로그래밍 언어론 정리입니다.
+## 종강
+![image](https://github.com/mr-won/Programming-linguistics/assets/58906858/3eab74ee-9f65-42aa-b849-4a79e8a445be)
+```
+컴퓨터 프로그래밍 언어를 설계하고 구현하는 방법과 현대 컴퓨터 프로그래밍 언어가 가지고 있는 주요
+요소들 및 패러다임에 따른 장단점들을 배울 수 있었습니다.
+```
 [BNF](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hamill_a&logNo=221125554113)
 [4](https://blog.naver.com/PostView.nhn?blogId=bh5kks&logNo=220498445612)
 ![image](https://github.com/wonchihyeon/Programming-linguistics/assets/58906858/532d1fb1-1f40-4e6c-957d-fd56aa0d6d9b)
